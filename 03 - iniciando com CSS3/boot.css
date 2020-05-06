@@ -1,0 +1,41 @@
+*, *::after, *::before {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+.radius {
+    border-radius: 15px;
+}
+
+.btn {
+    padding: 8px 20px;
+    font-weight: normal;
+    margin: 0 4px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn_green {
+    background-color: #093;
+    color: #fff;
+}
+
+.btn_green:hover {
+    background-color: #00cc66;
+}
+
+.btn_red {
+    background-color: #cc0000;
+    color: #fff;
+}
+
+.btn_red:hover {
+    background-color: #ff3333;
+}
